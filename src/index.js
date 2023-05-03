@@ -111,5 +111,4 @@ async function onLoadMore() {
   }
   const lightbox = new SimpleLightbox('.gallery a');
   lightbox.refresh();
-  console.log([hitsCounter, totalHits]);
 }
