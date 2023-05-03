@@ -109,6 +109,5 @@ async function onLoadMore() {
   } catch (error) {
     console.log(error);
   }
-  const lightbox = new SimpleLightbox('.gallery a');
   lightbox.refresh();
 }
